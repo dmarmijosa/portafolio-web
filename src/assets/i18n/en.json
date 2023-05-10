@@ -1,0 +1,18 @@
+{
+  "home": {
+    "welcome": "Welcome",
+    "yo-soy": "I'm",
+    "front-end": "Front-End with Angular",
+    "back-end": "Back-End with Nodejs",
+    "movil": "Movile with Flutter"
+  },
+  "about":{
+    "presentation":"Hi, I'm a systems engineer specializing in web development. I have experience developing with Angular and Node.js, as well as building mobile apps with Flutter.",
+    "from":"Lives in",
+    "l-idiomas":"language",
+    "idiomas":"Spanish - Native y English - B1",
+    "edad": "Age",
+    "l-genero": "Gender",
+    "genero":"Male"
+  }
+}

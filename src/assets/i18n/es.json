@@ -1,0 +1,19 @@
+{
+  "home": {
+    "welcome": "Bienvenido",
+    "yo-soy": "Mi nombre es",
+    "front-end": "Front-End con Angular",
+    "back-end": "Back-End con Nodejs",
+    "movil": "Mobil con Flutter"
+  },
+  "about":{
+    "presentation":"Hola, soy un ingeniero en sistemas especializado en el desarrollo web. Tengo experiencia en el desarrollo con Angular y Node.js, así como en la creación de aplicaciones móviles con Flutter.",
+    "from":"Vivo en",
+    "l-idiomas":"Idiomas",
+    "idiomas":"Español - Nativo y Ingles - B1",
+    "edad": "Edad",
+    "l-genero": "Genero",
+    "genero": "Masculino"
+  }
+
+}
