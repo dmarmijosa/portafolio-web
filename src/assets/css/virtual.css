@@ -207,6 +207,13 @@ a:hover, a:active {
     line-height: 35px;
 }
 
+.btn-fab.btn-sm2 {
+    width: 45px;
+    height: 45px;
+    line-height: 345px;
+}
+
+
 /* Social Button */
 .social {
     position: relative;

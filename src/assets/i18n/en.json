@@ -1,18 +1,195 @@
 {
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "certificados": "Certificates",
+    "portafolio": "Portfolio",
+    "contacto": "Contact"
+  },
   "home": {
     "welcome": "Welcome",
     "yo-soy": "I'm",
     "front-end": "Front-End with Angular",
     "back-end": "Back-End with Nodejs",
-    "movil": "Movile with Flutter"
+    "movil": "Movile with Flutter",
+    "asesoria": "Technology consulting"
   },
-  "about":{
-    "presentation":"Hi, I'm a systems engineer specializing in web development. I have experience developing with Angular and Node.js, as well as building mobile apps with Flutter.",
-    "from":"Lives in",
-    "l-idiomas":"language",
-    "idiomas":"Spanish - Native y English - B1",
+  "about": {
+    "presentation": "Hi, I'm a systems engineer specializing in web development. I have experience developing with Angular and Node.js, as well as building mobile apps with Flutter.",
+    "from": "Lives in",
+    "spain": "Spain",
+    "l-idiomas": "language",
+    "idiomas": "Spanish - Native y English - B1",
     "edad": "Age",
     "l-genero": "Gender",
-    "genero":"Male"
+    "genero": "Male"
+  },
+  "skills": {
+    "mykills": "My Skills"
+  },
+  "skills-list": {
+    "angular": "Angular",
+    "patronesDeDiseno": "Design Patterns",
+    "typeScript": "TypeScript",
+    "disenoWebResponsivo": "Responsive web design",
+    "css": "CSS",
+    "git": "Git",
+    "mySql": "MySQL",
+    "nodemon": "Nodemon",
+    "javaScriptEs6": "JavaScript ES6",
+    "rxjsProgramacionReactiva": "RXJS RXJS Reactive Programming",
+    "pruebasUnitarias": "Unit tests",
+    "pruebasDeIntegracion": "Integration tests",
+    "primeNg": "PrimeNG",
+    "tailwindCss": "Tailwind CSS",
+    "angularMaterial": "Angular Material",
+    "bootstrap": "Bootstrap",
+    "metodologiaDeDesarrolloAgil": "Agile Development Methodology",
+    "programacionOrientadaAObjetos": "Object-Oriented Programming",
+    "flutter": "Flutter",
+    "nodeJs": "Node.js",
+    "expressJs": "Express.js",
+    "java": "Java",
+    "pwa": "PWA",
+    "jasmine": "Jasmine",
+    "docker": "Docker",
+    "logicaDeProgramacion": "Programming logic",
+    "typescript":"Typescript",
+    "devOps":"DevOps"
+  },
+  "l-educacion":"Education",
+  "educacion":{
+    "superior":{
+      "anio":"Feb. 2013 - Jun. 2022",
+      "titulo":"Systems engineer",
+      "institucion":"National University of Loja of Ecuador",
+      "descripcion":"During my systems engineering degree at the National University of Loja in Ecuador, I learned the necessary skills to become a competent web developer."
+    },
+    "secundaria":{
+      "anio":"Sept. 2005 - May. 2022",
+      "titulo": "Bachelor of Physics - Mathematics",
+      "institucion":"Manuel Cabrera lozano",
+      "descripcion":"During my bachelor's degree in Physics-Mathematics at the Manuel Cabrera Lozano school, I developed a solid foundation in mathematics and physical sciences, which helped me understand the fundamentals of logic and abstract reasoning."
+    },
+    "cursos":{
+      "anio":"Jan. 2022 - Mar. 2022",
+      "titulo":"Ingles A2",
+      "institucion":"CADIL study center",
+      "descripcion":"In this A2 English course, I acquired the necessary skills to communicate in everyday situations, improve my comprehension, oral and written expression in the English language."
+    }
+  },
+  "l-experience": "Experiences",
+  "experience": {
+    "unl":{
+      "fecha":"2014-2017 (9 months) ",
+      "titulo":"Intern in software development, networks and Help-Desk",
+      "lugar":"National University of Loja of Ecuador",
+      "descripcion":"During my internships at the National University of Loja, I worked in software development, networks and Help-Desk, which allowed me to apply my theoretical knowledge of systems engineering to practical situations, improving my ability to solve problems and work in a team."
+    },
+    "toc":{
+      "fecha":"Jan. 2016 - Jan. 2019",
+      "titulo":"Systems analyst",
+      "lugar":"The One Computer Loja - Ecuador",
+      "descripcion":"During my collaboration as a Systems Analyst at The One Computer Loja, I used my computer skills and knowledge to analyze and solve problems in systems, improving the efficiency of company processes and providing solutions to users."
+    },
+    "velsystem":{
+      "fecha":"Jan. 2016 - Apr. 2019",
+      "titulo":"Software Developer Stack MEAN, Help-Desk and Information Networks",
+      "lugar":"Velsystem - Ecuador",
+      "descripcion":"During my time at Velsystem, I had my first job as a Developer and Help-Desk. In addition, I gained experience in the installation of security cameras and structured channeling, which expanded my practical knowledge in the field of information technology."
+    },
+    "pc-flash":{
+      "fecha":"Oct. 2018 - Apr. 2019",
+      "titulo":"MEAN full stack developer",
+      "lugar":"PC Flash Thecnology  - Ecuador",
+      "descripcion":"I obtained a certificate for my participation in the creation of a system for a hotel in the city of Cuenca. This system was developed using Angular web technology and integrated with Arduino for the hardware part, allowing the automatic opening of the doors through REST services."
+    },
+    "compumars":{
+      "fecha":"Sep. 2018 - Sep. 2021",
+      "titulo":"Technical service engineer.",
+      "lugar":"Compumars -  Ecuador",
+      "descripcion":"I received a certificate for my excellent performance in the maintenance of computer equipment and data networks, which reflects my ability to ensure the proper functioning and optimization of computer systems, as well as to solve any technical problem that may arise."
+    },
+    "csa":{
+      "fecha":"Oct. 2022 - Current",
+      "titulo":"Web developer.",
+      "lugar":"CSA Integració de Sistemes - Barcelona - Spain",
+      "descripcion":"As a Web Developer at CSA Integració de Sistemes, I am responsible for collaborating in the design, implementation and maintenance of web applications. My main tasks include programming user interfaces, integrating services and databases, and optimizing application performance and security. In this role, I have had the opportunity to work with various web technologies including HTML, CSS, JavaScript, Angular, and Node.js, and to collaborate with a multidisciplinary team of IT professionals." 
+    }
+  },
+  "masDetalle":"Know more",
+  "l-certificados":"Licenses and certifications",
+  "certificados":{
+    "unl":{
+      "nombre":"Systems engineering.",
+      "expedicion":"Jun. 2022",
+      "descripcion":"I graduated with a degree in Systems Engineering from the National University of Loja, where I acquired solid knowledge in multiplatform programming, artificial intelligence and all areas of computing. During my training, I also had the opportunity to participate in challenging projects and work as a team to achieve innovative solutions."
+    },
+    "platzi":{
+      "nombre":"Frontend in depth with Angular.",
+      "expedicion":"May. 2023",
+      "descripcion":"I took Platzi's course, where I learned the fundamentals of Angular and how to build complex web applications using this framework, as well as learning about good practices and tools to optimize application development. With this course, I gained skills to develop high-quality and scalable frontend web applications using Angular."
+    },
+    "freecodecamp":{
+      "nombre":"Responsive web design.",
+      "expedicion":"Feb. 2023",
+      "descripcion":"The freeCodeCamp.org course gave me a deep understanding of responsive web design, allowing me to create websites that scale and look good on devices of different sizes and resolutions."
+    },
+    "udemyAngular":{
+      "nombre":"Angular: Zero to Expert",
+      "expedicion":"Nov. 2022",
+      "descripcion":"I certified in the course Angular: From Zero to Expert taught by Fernando Herrera on Udemy, where I gained advanced skills in developing web applications with Angular. I learned to use advanced tools and techniques."
+    },
+    "udemyNodejs":{
+      "nombre":" Node: Zerp to Expert",
+      "expedicion":"Oct. 2020",
+      "descripcion":"I acquired skills in creating web servers, handling HTTP requests and optimizing resource load, among other essential knowledge for the development of modern web applications."
+    },
+    "cadil":{
+      "nombre":"Language English A2",
+      "expedicion":"Oct. 2022",
+      "descripcion":"I obtained the CADIL A2 English Language certificate, which certifies my proficiency in English at a basic level. With this certificate, I can communicate in everyday situations and understand simple texts in English."
+    }
+  },
+  "certificadoInfo":"For more information you can visit my Linkedin profile",
+  "clickAqui":"Here",
+  "testimonials": {
+    "johanna": {
+      "nombre": "Johanna Montaño",
+      "descripcion": "Danny is a highly-skilled systems engineer and web developer with extensive experience in both front-end and back-end programming and frameworks. He is passionate about teamwork and is familiar with agile methodologies."
+    },
+    "diego": {
+      "nombre": "Diego Murquincho",
+      "descripcion": "Danny is a prominent Full Stack developer with experience in the MEAN stack (MongoDB, Express, Angular, Node.js). He is a leader in web projects, with teamwork and leadership skills. He is an expert in scalable and efficient solutions with modern technologies. He looks for new challenges and stays up to date on the latest web development trends."
+    },
+    "anais": {
+      "nombre": "Anaïs Costanzo",
+      "descripcion": "Danny is an experienced mobile developer specializing in Flutter, having worked on three successful client projects. He is noted for his ability to create high-quality mobile applications and his commitment to constantly improve his skills and stay up-to-date with the latest trends in mobile technology. In addition, he is an organized and reliable person who always meets deadlines."
+    }
+  },
+  "l-design":"Design",
+  "l-todos":"All",
+  "l-conoceTrabajo":"Know my work",
+  "l-portafolio":"Portfolio",
+  "portfolio":{
+    "proyecto1":"Gifs App",
+    "proyecto3":"FCCE App",
+    "proyecto4":"The beautiful Italy App",
+    "proyecto5":"Yard App",
+    "proyecto7":"Penguin App",
+    "proyecto8":"Accessibility App"
+  },
+  "contacto":{
+    "l-contacto":"Contact",
+    "nombre":"Name",
+    "correo":"Email",
+    "tema":"Subject",
+    "escribe":"Message",
+    "btn-enviar":"Send message",
+    "btn-whatsapp":"Send Whatsapp"
+  },
+  "footer":{
+    "contactame":"Contact me",
+    "seguirme":"Follow me"
   }
 }

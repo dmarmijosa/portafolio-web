@@ -1,19 +1,196 @@
 {
+  "menu": {
+    "home": "Inicio",
+    "about": "Perfil",
+    "certificados": "Certificados",
+    "portafolio": "Portafolio",
+    "contacto": "Contacto"
+  },
   "home": {
     "welcome": "Bienvenido",
     "yo-soy": "Mi nombre es",
     "front-end": "Front-End con Angular",
     "back-end": "Back-End con Nodejs",
-    "movil": "Mobil con Flutter"
+    "movil": "Mobil con Flutter",
+    "asesoria": "Asesoría Tecnológica"
   },
-  "about":{
-    "presentation":"Hola, soy un ingeniero en sistemas especializado en el desarrollo web. Tengo experiencia en el desarrollo con Angular y Node.js, así como en la creación de aplicaciones móviles con Flutter.",
-    "from":"Vivo en",
-    "l-idiomas":"Idiomas",
-    "idiomas":"Español - Nativo y Ingles - B1",
+  "about": {
+    "presentation": "Hola, soy un ingeniero en sistemas especializado en el desarrollo web. Tengo experiencia en el desarrollo con Angular y Node.js, así como en la creación de aplicaciones móviles con Flutter.",
+    "from": "Vivo en",
+    "spain": "España",
+    "l-idiomas": "Idiomas",
+    "idiomas": "Español - Nativo y Ingles - B1",
     "edad": "Edad",
     "l-genero": "Genero",
     "genero": "Masculino"
-  }
+  },
+  "skills": {
+    "mySkills": "Mis habilidades"
+  },
+  "skills-list": {
+    "angular": "Angular",
+    "patronesDeDiseno": "Patrones de Diseño",
+    "typeScript": "TypeScript",
+    "disenoWebResponsivo": "Diseño web responsivo",
+    "css": "CSS",
+    "git": "Git",
+    "mySql": "MySQL",
+    "nodemon": "Nodemon",
+    "javaScriptEs6": "JavaScript ES6",
+    "rxjsProgramacionReactiva": "RXJS Programación Reactiva",
+    "pruebasUnitarias": "Pruebas unitarias",
+    "pruebasDeIntegracion": "Pruebas de integración",
+    "primeNg": "PrimeNG",
+    "tailwindCss": "Tailwind CSS",
+    "angularMaterial": "Angular Material",
+    "bootstrap": "Bootstrap",
+    "metodologiaDeDesarrolloAgil": "Metodología de Desarrollo Ágil",
+    "programacionOrientadaAObjetos": "Programación Orientada a Objetos",
+    "flutter": "Flutter",
+    "nodeJs": "Node.js",
+    "expressJs": "Express.js",
+    "java": "Java",
+    "pwa": "PWA",
+    "jasmine": "Jasmine",
+    "docker": "Docker",
+    "logicaDeProgramacion": "Lógica de programación",
+    "typescript": "Typescript",
+    "devOps": "DevOps"
+  },
+  "l-educacion": "Educación",
+  "educacion": {
+    "superior": {
+      "anio": "Feb. 2013 - Jun. 2022",
+      "titulo": "Ingeniero en sistemas",
+      "institucion": "Universidad Nacional de Loja de Ecuador",
+      "descripcion": "Durante mi carrera de ingeniería en sistemas en la Universidad Nacional de Loja de Ecuador, aprendí las habilidades necesarias para convertirme en un desarrollador web competente. "
+    },
+    "secundaria": {
+      "anio": "Sept. 2005 - May. 2022",
+      "titulo": "Bachillerato en Fisico - Matematicas",
+      "institucion": "Manuel Cabrera lozano",
+      "descripcion": "Durante mi bachillerato en Físico-Matemáticas en el colegio Manuel Cabrera Lozano, desarrollé una sólida base en matemáticas y ciencias físicas, lo que me ayudó a comprender los fundamentos de la lógica y el razonamiento abstracto."
+    },
+    "cursos": {
+      "anio": "Ene. 2022 - Mar. 2022",
+      "titulo": "Inglés A2",
+      "institucion": "Centro de estudios CADIL",
+      "descripcion": "En este curso de inglés A2, adquirí las habilidades necesarias para comunicarme en situaciones cotidianas, mejorar mi comprensión, expresión oral y escrita en el idioma inglés."
+    }
+  },
+  "l-experience": "Experiencias",
+  "experience": {
+    "unl": {
+      "fecha": "2014-2017 (9 meses) ",
+      "titulo": "Pasante en desarrollo de software, redes y Help-Desk",
+      "lugar": "Universidad Nacional de Loja del Ecuador",
+      "descripcion": "Durante mis pasantías en la Universidad Nacional de Loja, trabajé en el desarrollo de software, redes y Help-Desk, lo que me permitió aplicar mis conocimientos teóricos de ingeniería en sistemas a situaciones prácticas, mejorando mi habilidad para resolver problemas y trabajar en equipo."
+    },
+    "toc": {
+      "fecha": "Ene. 2016 - Ene. 2019",
+      "titulo": "Analista de sistemas",
+      "lugar": "The One Computer Loja - Ecuador",
+      "descripcion": "Durante mi colaboración como Analista de Sistemas en The One Computer Loja, utilicé mis habilidades y conocimientos en informática para analizar y resolver problemas en sistemas, mejorando la eficiencia en los procesos de la empresa y brindando soluciones a los usuarios."
+    },
+    "velsystem": {
+      "fecha": "Ene. 2016 - Abr. 2019",
+      "titulo": "Desarrollador de Software Stack MEAN, Help-Desk y Redes de información",
+      "lugar": "Velsystem - Ecuador",
+      "descripcion": "Durante mi tiempo en Velsystem, tuve mi primer trabajo como Desarrollador y Help-Desk. Además, gané experiencia en la instalación de cámaras de seguridad y canalización estructurada, lo que amplió mi conocimiento práctico en el campo de las tecnologías de la información."
+    },
+    "pc-flash": {
+      "fecha": "Oct. 2018 - Abr. 2019",
+      "titulo": "Desarrollador full stack MEAN",
+      "lugar": "PC Flash Thecnology  - Ecuador",
+      "descripcion": "Obtuve un certificado por mi participación en la creación de un sistema para un hotel en la ciudad de Cuenca. Este sistema se desarrolló utilizando la tecnología web Angular y se integró con Arduino para la parte de hardware, permitiendo la apertura automática de las puertas a través de servicios REST."
+    },
+    "compumars": {
+      "fecha": "Sep. 2018 - Sep. 2021",
+      "titulo": "Ingeniero de servicio técnico.",
+      "lugar": "Compumars -  Ecuador",
+      "descripcion": "Recibí un certificado por mi excelente desempeño en el mantenimiento de equipos informáticos y redes de datos, lo que refleja mi capacidad para asegurar el correcto funcionamiento y optimización de los sistemas informáticos, así como para solucionar cualquier problema técnico que pueda surgir."
+    },
+    "csa": {
+      "fecha": "Oct. 2022 - Actualidad",
+      "titulo": "Desarrollador web.",
+      "lugar": "CSA Integració de Sistemes - Barcelona - España",
+      "descripcion": "Como Desarrollador Web en CSA Integració de Sistemes, soy responsable de colaborar en el diseño, implementación y mantenimiento de aplicaciones web. Mis principales tareas incluyen la programación de interfaces de usuario, la integración de servicios y bases de datos, y la optimización del rendimiento y la seguridad de las aplicaciones. En este puesto, he tenido la oportunidad de trabajar con diversas tecnologías web, como HTML, CSS, JavaScript, Angular y Node.js, y de colaborar con un equipo multidisciplinario de profesionales de IT."
+    }
+  },
 
+  "masDetalle": "Saber más",
+  "l-certificados": "Licencias y certificaciones",
+  "certificados": {
+    "unl": {
+      "nombre": "Ingeniería en sistemas",
+      "expedicion": "Jun. 2022",
+      "descripcion": "Me gradué con el título de Ingeniería en Sistemas de la Universidad Nacional de Loja, donde adquirí sólidos conocimientos en programación multiplataforma, inteligencia artificial y todas las áreas de la informática. Durante mi formación, también tuve la oportunidad de participar en proyectos desafiantes y trabajar en equipo para lograr soluciones innovadoras."
+    },
+    "platzi": {
+      "nombre": "Frontend a profundidad con Angular",
+      "expedicion": "May. 2023",
+      "descripcion": "Tomé el curso de Platzi, donde aprendí los fundamentos de Angular y cómo construir aplicaciones web complejas utilizando este framework, además de conocer buenas prácticas y herramientas para optimizar el desarrollo de aplicaciones. Con este curso, adquirí habilidades para desarrollar aplicaciones web frontend de alta calidad y escalables utilizando Angular."
+    },
+    "freecodecamp": {
+      "nombre": "Diseño web adaptable",
+      "expedicion": "Feb. 2023",
+      "descripcion": "El curso de freeCodeCamp.org me proporcionó una comprensión profunda sobre el diseño web adaptable, lo que me permitió crear sitios web que se adaptan y se ven bien en dispositivos de diferentes tamaños y resoluciones. "
+    },
+    "udemyAngular": {
+      "nombre": "Angular: De cero a experto",
+      "expedicion": "Nov. 2022",
+      "descripcion": "Me certifiqué en el curso Angular: De cero a experto impartido por Fernando Herrera en Udemy, donde adquirí habilidades avanzadas en el desarrollo de aplicaciones web con Angular. Aprendí a utilizar herramientas y técnicas avanzadas."
+    },
+    "udemyNodejs": {
+      "nombre": " Node: De cero a experto",
+      "expedicion": "Oct. 2020",
+      "descripcion": "Adquirí habilidades en la creación de servidores web, manejo de peticiones HTTP y optimización de la carga de recursos, entre otros conocimientos esenciales para el desarrollo de aplicaciones web modernas."
+    },
+    "cadil": {
+      "nombre": "Idioma Inglés A2",
+      "expedicion": "Oct. 2022",
+      "descripcion": "Obtuve el certificado de Idioma Inglés A2 de CADIL, el cual certifica mi competencia en inglés a nivel básico. Con este certificado, puedo comunicarme en situaciones cotidianas y entender textos sencillos en inglés."
+    }
+  },
+  "certificadoInfo": "Para mas información puedes visitar mi perfil de Linkedin",
+  "clickAqui": "Aquí",
+  "testimonials": {
+    "johanna": {
+      "nombre": "Johanna Montaño",
+      "descripcion": "Danny es un ingeniero en sistemas y desarrollador web altamente capacitado con una amplia experiencia en programación y frameworks tanto para el front-end como para el back-end. Es un apasionado del trabajo en equipo y está familiarizado con las metodologías ágiles."
+    },
+    "diego": {
+      "nombre": "Diego Murquincho",
+      "descripcion": "Danny es un desarrollador Full Stack destacado con experiencia en MEAN stack (MongoDB, Express, Angular, Node.js). Es un líder en proyectos web, con habilidades para trabajar en equipo y liderar. Es experto en soluciones escalables y eficientes con tecnologías modernas. Busca nuevos desafíos y se mantiene actualizado en las últimas tendencias de desarrollo web."
+    },
+    "anais": {
+      "nombre": "Anaïs Costanzo",
+      "descripcion": "Danny es un experimentado desarrollador móvil especializado en Flutter, que ha trabajado en tres proyectos exitosos para clientes. Se destaca por su capacidad para crear aplicaciones móviles de alta calidad y su compromiso para mejorar constantemente sus habilidades y mantenerse actualizado con las últimas tendencias en tecnología móvil. Además, es una persona organizada y confiable que siempre cumple con los plazos establecidos."
+    }
+  },
+  "l-design":"Diseño",
+  "l-todos":"Todos",
+  "l-conoceTrabajo":"Conoce mi trabajo",
+  "l-portafolio":"Portafolio",
+  "portfolio":{
+    "proyecto1":"Gifs App",
+    "proyecto3":"FCCE App",
+    "proyecto4":"La Bella Italia",
+    "proyecto5":"Yard App",
+    "proyecto7":"Pingüino App",
+    "proyecto8":"Accesibilidad App"
+  },
+  "contacto":{
+    "l-contacto":"Contáctame",
+    "nombre":"Tu nombre",
+    "correo":"Tu correo",
+    "tema":"Tema",
+    "escribe":"Escribe el mensaje",
+    "btn-enviar":"Enviar Mensaje",
+    "btn-whatsapp":"Enviar Whatsapp"
+  },
+  "footer":{
+    "contactame":"Contáctame",
+    "seguirme":"Sigueme"
+  }
 }

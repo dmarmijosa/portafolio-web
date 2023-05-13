@@ -1,67 +1,22 @@
 <div class="vg-page page-service" id="services">
-    <h1 class="text-center wow fadeInUp">Services</h1>
+    <h1 class="text-center wow fadeInUp">{{'l-certificados'| translate}}</h1>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
+        <div *ngFor="let item of certificados" class="col-md-6 col-lg-4 wow fadeInUp">
           <div class="card card-body">
             <div class="iconic">
-              <span class="ti-layout"></span>
+              <span [class]="item[1]"></span>
             </div>
-            <h4 class="fg-theme">Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-            <a href="#" class="btn btn-theme btn-rounded">Read More</a>
+            <h4 class="fg-theme">{{item[0] | translate}}.</h4>
+            <p>{{item[2] | translate}}</p>
+            <p>{{item[3] | translate}}</p>
+            <a [href]="item[4]" target="_blank" class="btn btn-theme btn-rounded">{{'masDetalle' |  translate}}</a>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card card-body">
-            <div class="iconic">
-              <span class="ti-announcement"></span>
-            </div>
-            <h4 class="fg-theme">SEO</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-            <a href="#" class="btn btn-theme btn-rounded">Read More</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card card-body">
-            <div class="iconic">
-              <span class="ti-desktop"></span>
-            </div>
-            <h4 class="fg-theme">Web Development</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-            <a href="#" class="btn btn-theme btn-rounded">Read More</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card card-body">
-            <div class="iconic">
-              <span class="ti-layout"></span>
-            </div>
-            <h4 class="fg-theme">Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-            <a href="#" class="btn btn-theme btn-rounded">Read More</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card card-body">
-            <div class="iconic">
-              <span class="ti-announcement"></span>
-            </div>
-            <h4 class="fg-theme">SEO</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-            <a href="#" class="btn btn-theme btn-rounded">Read More</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card card-body">
-            <div class="iconic">
-              <span class="ti-desktop"></span>
-            </div>
-            <h4 class="fg-theme">Web Development</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-            <a href="#" class="btn btn-theme btn-rounded">Read More</a>
-          </div>
-        </div>
+        </div>    
       </div>
     </div>
+    <div class="row mt-3 center d-flex justify-content-center">
+      <p>{{'certificadoInfo' | translate}} <a href="https://www.linkedin.com/in/dmarmijosa" target="_blank" class="btn btn-theme" >{{'clickAqui' | translate}}</a></p>
+    </div>
+
   </div>

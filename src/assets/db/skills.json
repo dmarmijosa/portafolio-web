@@ -1,0 +1,34 @@
+{
+  "conocimientos": {
+    "conocimientos": [
+      "skills-list.angular",
+      "skills-list.patronesDeDiseno",
+      "skills-list.typeScript",
+      "skills-list.disenoWebResponsivo",
+      "skills-list.css",
+      "skills-list.git",
+      "skills-list.mySql",
+      "skills-list.nodemon",
+      "skills-list.javaScriptEs6",
+      "skills-list.rxjsProgramacionReactiva",
+      "skills-list.pruebasUnitarias",
+      "skills-list.pruebasDeIntegracion",
+      "skills-list.primeNg",
+      "skills-list.tailwindCss",
+      "skills-list.angularMaterial",
+      "skills-list.bootstrap",
+      "skills-list.metodologiaDeDesarrolloAgil",
+      "skills-list.programacionOrientadaAObjetos",
+      "skills-list.flutter",
+      "skills-list.nodeJs",
+      "skills-list.expressJs",
+      "skills-list.java",
+      "skills-list.pwa",
+      "skills-list.jasmine",
+      "skills-list.docker",
+      "skills-list.logicaDeProgramacion",
+      "skills-list.typescript",
+      "skills-list.devOps"
+    ]
+  }
+}
