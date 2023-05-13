@@ -13,8 +13,6 @@ export class ProfileComponent {
     const currentLang = this.translate.currentLang;
     console.log('El idioma actual es:', translate);
   }
-  imprimir($event:any){
-    console.log($event)
-  }
+
   
 }
