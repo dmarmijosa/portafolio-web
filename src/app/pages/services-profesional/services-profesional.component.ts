@@ -46,7 +46,7 @@ export class ServicesProfesionalComponent {
 
     [
       'certificados.cadil.nombre',
-      'class="fa-regular fa-language',
+      'fa-solid fa-globe',
       'certificados.cadil.expedicion',
       'certificados.cadil.descripcion',
       './assets/pdfs/licencias-certificados/ingles.pdf',
