@@ -1,4 +1,5 @@
 {
+  "l-seleccion":"Selecciona un color",
   "menu": {
     "home": "Inicio",
     "about": "Perfil",
@@ -22,7 +23,8 @@
     "idiomas": "Español - Nativo y Ingles - B1",
     "edad": "Edad",
     "l-genero": "Genero",
-    "genero": "Masculino"
+    "genero": "Masculino",
+    "Descargar":"Descarga CV"
   },
   "skills": {
     "mySkills": "Mis habilidades"

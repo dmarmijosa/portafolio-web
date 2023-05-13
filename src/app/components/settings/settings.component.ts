@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,12 +8,14 @@ import { TranslateService } from '@ngx-translate/core';
   ]
 })
 export class SettingsComponent {
+  
   currentLanguage: string = 'es';
   constructor(private translateService:TranslateService){
 
   }
   changeLanguage(){
     if (this.currentLanguage === 'es') {
+      
       this.translateService.use('en');
       this.currentLanguage = 'en';
     } else {

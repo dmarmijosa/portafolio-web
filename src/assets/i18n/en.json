@@ -1,4 +1,5 @@
 {
+  "l-seleccion":"Select Color",
   "menu": {
     "home": "Home",
     "about": "About",
@@ -22,7 +23,8 @@
     "idiomas": "Spanish - Native y English - B1",
     "edad": "Age",
     "l-genero": "Gender",
-    "genero": "Male"
+    "genero": "Male",
+    "Descargar":"Download CV"
   },
   "skills": {
     "mykills": "My Skills"
