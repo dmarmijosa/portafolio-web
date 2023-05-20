@@ -37,7 +37,7 @@
     "css": "CSS",
     "git": "Git",
     "mySql": "MySQL",
-    "nodemon": "Socket.IO",
+    "socket": "Socket.IO",
     "javaScriptEs6": "JavaScript ES6",
     "rxjsProgramacionReactiva": "RXJS RXJS Reactive Programming",
     "pruebasUnitarias": "Unit tests",
