@@ -3,16 +3,16 @@
     <div class="template-config mr-3">
         <!-- Settings -->
         <div class="d-block">
-            <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-palette"></span></button>
+            <button class="btn btn-fab btn-sm" id="sideel" [title]="'l-setting'| translate" ><span class="ti-palette"></span></button>
         </div>
         <!-- Puschase -->
         <div class="d-block">
-            <a href="./assets/pdfs/cv/cv-en.pdf" target="_blank" class="btn btn-fab btn-sm" title="Download CV"
+            <a (click)="descargar()" class="btn btn-fab btn-sm" [title]="'l-descargar' | translate"
                 data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
         </div>
         <!-- Help -->
         <div class="d-block">
-            <button (click)="changeLanguage()" class="btn btn-fav btn-sm" title="Translate" data-toggle="tooltip" data-placement="left">
+            <button (click)="changeLanguage()" class="btn btn-fav btn-sm" [title]="'l-traducir'| translate" >
                 <span class="fa-solid fa-globe"></span>
             </button>
         </div>
