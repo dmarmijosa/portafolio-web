@@ -1,4 +1,7 @@
 {
+  "l-setting":"Colores",
+  "l-traducir":"Traducir",
+  "l-descargar":"Descargar",
   "l-seleccion":"Selecciona un color",
   "menu": {
     "home": "Inicio",
@@ -20,7 +23,7 @@
     "from": "Vivo en",
     "spain": "España",
     "l-idiomas": "Idiomas",
-    "idiomas": "Español - Nativo y Ingles - B1",
+    "idiomas": "Español - Nativo y Inglés - B1",
     "edad": "Edad",
     "l-genero": "Genero",
     "genero": "Masculino",
@@ -53,7 +56,7 @@
     "expressJs": "Express.js",
     "java": "Java",
     "pwa": "PWA",
-    "jasmine": "Jasmine",
+    "jasmine": "Jazmine - Karma",
     "docker": "Docker",
     "logicaDeProgramacion": "Lógica de programación",
     "typescript": "Typescript",
